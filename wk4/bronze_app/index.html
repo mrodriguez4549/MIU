@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<!-- Marco Rodriguez -->
+<!-- 07-26-12 -->
+<!-- Project 4 -->
+<!-- MIU 1207 -- >
+
+<!-- head starts --> 
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Gear Heads</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<link rel="stylesheet" href="css/jqm.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body style="background-color:black;">
+
+	<div data-role="page" id="home"  data-theme="c">
+		
+		<div data-role="content">
+			<h1><img src="images/branding.png" class="img" alt="Gear Heads"/></h1>
+			<h1><a href="additem.html" data-ajax="false"><img src="images/cta3.png" class="mycta" alt="Join Today!" /></a></h1>
+
+		<!-- category section goes here -->	
+		<div data-role="collapsible-set" >
+						<div data-role="collapsible" data-collapsed="true" data-theme="c">
+							<h3>Members</h3>
+								<a href="#members" data-role="button" data-theme="c">Members</a>
+							</p>
+						</div>
+
+						<div data-role="collapsible" data-collapsed="true" data-theme="c">
+							<h3>Gallery</h3>
+								<a href="#gallery" data-role="button" data-theme="c">Gallery</a>
+							</p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-theme="c">
+							<h3>Resources</h3>
+								<a href="#resources" data-role="button" data-theme="c">Resources</a>
+							</p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-theme="c">
+							<h3>Classifieds</h3>
+								<a href="#classifieds" data-role="button" data-theme="c">Classifieds</a>
+							</p>
+						</div>
+						<div data-role="collapsible" data-collapsed="true" data-theme="c">
+							<h3>News</h3>
+								<a href="#news" data-role="button" data-theme="c">News</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<!-- members section goes here -->
+
+	<div data-role="page" id="members" data-add-back-btn="true"  data-theme="c">
+
+			<div data-role="header" data-position="fixed">
+				<h1>Members</h1>
+			</div>
+
+			<div data-role="content">
+				<!-- data -->
+				<ul data-role="listview" data-inset="true" data-filter="true">
+					<li>
+						<a href="#ae">	
+							<h3>A - E</h3>
+						</a>	
+					</li>
+					<li>
+						<a href="#fj">	
+							<h3>F - J</h3>
+						</a>	
+					</li>
+					<li>
+						<a href="#ko">	
+							<h3>K - O</h3>
+						</a>	
+					</li>
+					<li>
+						<a href="#pt">	
+							<h3>P - T</h3>
+						</a>	
+					</li>
+					<li>
+						<a href="#uz">	
+							<h3>U - Z</h3>
+						</a>	
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+<!-- members a-e -->		
+
+<div data-role="page" id="ae" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+			<h1>A - E</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+			<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_1.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->	
+							<strong>Owner:</strong> 	  		<em>Alex Smith</em> <br />
+							<strong>Year:</strong> 				<em>1999</em> <br />
+							<strong>Make:</strong> 				<em>Dodge</em> <br />
+							<strong>Model:</strong> 			<em>Viper</em> <br />
+							<strong>Power:</strong> 			<em>450</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_2.jpg"  width="115" alt="hre" class="img"/>
+					<br /></div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->	
+							<strong>Owner:</strong> 	  		<em>Bubba Sparks</em> <br />
+							<strong>Year:</strong> 				<em>2002</em> <br />
+							<strong>Make:</strong> 				<em>Ford</em> <br />
+							<strong>Model:</strong> 			<em>Cobra</em> <br />
+							<strong>Power:</strong> 			<em>750</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+
+			<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_3.jpg"  width="115" alt="hre" class="img"/>
+					<br /></div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->	
+							<strong>Owner:</strong> 	  		<em>Chris Rayes</em> <br />
+							<strong>Year:</strong> 				<em>2005</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>ZO6</em> <br />
+							<strong>Power:</strong> 			<em>550</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+
+
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_4.jpg"  width="115" alt="hre" class="img"/>
+					<br /></div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->	
+							<strong>Owner:</strong> 	  		<em>Ellias Jutts</em> <br />
+							<strong>Year:</strong> 				<em>2001</em> <br />
+							<strong>Make:</strong> 				<em>Dodge</em> <br />
+							<strong>Model:</strong> 			<em>Viper ACR</em> <br />
+							<strong>Power:</strong> 			<em>600</em> <br />
+							<br />
+							
+					</div>
+				</div><!-- /grid-a -->
+
+			</div>
+
+		
+
+			<div data-role="footer" data-position="fixed" data-id="home">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="plus">Home</a></li>
+						<li><a href="#info" data-icon="plus">Info</a></li>
+						<li><a href="#custform" data-ajax="false" data-icon="plus">Join</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+
+<!-- members f-j -->		
+
+<div data-role="page" id="fj"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+			<h1>F - J</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_5.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Fred McGriff</em> <br />
+							<strong>Year:</strong> 				<em>1999</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Camaro SS</em> <br />
+							<strong>Power:</strong> 			<em>1250</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_6.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Garett Bell</em> <br />
+							<strong>Year:</strong> 				<em>1999</em> <br />
+							<strong>Make:</strong> 				<em>Dodge</em> <br />
+							<strong>Model:</strong> 			<em>Viper ACR</em> <br />
+							<strong>Power:</strong> 			<em>750</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_7.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->	
+							<strong>Owner:</strong> 	  		<em>Gabe Smith</em> <br />
+							<strong>Year:</strong> 				<em>2010</em> <br />
+							<strong>Make:</strong> 				<em>Chevrolet</em> <br />
+							<strong>Model:</strong> 			<em>Corvette Z07</em> <br />
+							<strong>Power:</strong> 			<em>850</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_8.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>James Camoron</em> <br />
+							<strong>Year:</strong> 				<em>1998</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Camaro SS</em> <br />
+							<strong>Power:</strong> 			<em>900</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			</div>
+
+			<div data-role="footer" data-position="fixed" data-id="home">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="plus">Home</a></li>
+						<li><a href="#info" data-icon="plus">Info</a></li>
+						<li><a href="#custform" data-ajax="false" data-icon="plus">Join</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>		
+
+
+<!-- members k-o -->		
+
+<div data-role="page" id="ko"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+			<h1>K - O</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_9.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Kurt Jameson</em> <br />
+							<strong>Year:</strong> 				<em>1970</em> <br />
+							<strong>Make:</strong> 				<em>Dodge</em> <br />
+							<strong>Model:</strong> 			<em>Barra Cuda</em> <br />
+							<strong>Power:</strong> 			<em>655</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_10.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Lani Powi</em> <br />
+							<strong>Year:</strong> 				<em>1999</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>ZR1</em> <br />
+							<strong>Power:</strong> 			<em>950</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_11.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Matt Hughes</em> <br />
+							<strong>Year:</strong> 				<em>2001</em> <br />
+							<strong>Make:</strong> 				<em>Pontiac</em> <br />
+							<strong>Model:</strong> 			<em>Firebird</em> <br />
+							<strong>Power:</strong> 			<em>650</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_12.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Naigel Adams</em> <br />
+							<strong>Year:</strong> 				<em>2002</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Camaro SS</em> <br />
+							<strong>Power:</strong> 			<em>1000</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			</div>
+
+			<div data-role="footer" data-position="fixed" data-id="home">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="plus">Home</a></li>
+						<li><a href="#info" data-icon="plus">Info</a></li>
+						<li><a href="#custform" data-ajax="false" data-icon="plus">Join</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>		
+
+
+<!-- members k-o -->		
+
+<div data-role="page" id="pt"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+			<h1>P - T</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_13.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Peter John</em> <br />
+							<strong>Year:</strong> 				<em>2004</em> <br />
+							<strong>Make:</strong> 				<em>Ford</em> <br />
+							<strong>Model:</strong> 			<em>Cobra</em> <br />
+							<strong>Power:</strong> 			<em>650</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_14.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Roger Ryan</em> <br />
+							<strong>Year:</strong> 				<em>1967</em> <br />
+							<strong>Make:</strong> 				<em>Chevrolet</em> <br />
+							<strong>Model:</strong> 			<em>Nova SS</em> <br />
+							<strong>Power:</strong> 			<em>550</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_15.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Tony Tee</em> <br />
+							<strong>Year:</strong> 				<em>2002</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Camaro SS</em> <br />
+							<strong>Power:</strong> 			<em>550</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_16.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Terrance Guss</em> <br />
+							<strong>Year:</strong> 				<em>1999</em> <br />
+							<strong>Make:</strong> 				<em>Dodge</em> <br />
+							<strong>Model:</strong> 			<em>Viper R</em> <br />
+							<strong>Power:</strong> 			<em>600</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			</div>
+
+			<div data-role="footer" data-position="fixed" data-id="home">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="plus">Home</a></li>
+						<li><a href="#info" data-icon="plus">Info</a></li>
+						<li><a href="#custform" data-ajax="false" data-icon="plus">Join</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>		
+
+
+<!-- members k-o -->		
+
+<div data-role="page" id="uz"  data-add-back-btn="true" data-theme="c">
+
+			<div data-role="header" data-position="fixed">
+			<h1>U - Z</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+			<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_17.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Ulysses Jenns</em> <br />
+							<strong>Year:</strong> 				<em>1968</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Nova</em> <br />
+							<strong>Power:</strong> 			<em>850</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_18.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Unawan Ghan</em> <br />
+							<strong>Year:</strong> 				<em>2010</em> <br />
+							<strong>Make:</strong> 				<em>Chevy</em> <br />
+							<strong>Model:</strong> 			<em>Z07</em> <br />
+							<strong>Power:</strong> 			<em>950</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+				<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_19.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Victor Reyes</em> <br />
+							<strong>Year:</strong> 				<em>2001</em> <br />
+							<strong>Make:</strong> 				<em>Ford</em> <br />
+							<strong>Model:</strong> 			<em>GT-40</em> <br />
+							<strong>Power:</strong> 			<em>800</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			<div class="ui-grid-a" data-theme="a">
+
+					<div class="ui-block-a">
+						<div class="ui-bar ui-bar-a"><img src="images/members/member_20.jpg"  width="115" alt="hre" class="img"/>
+					</div></div>
+				
+					<div class="ui-block-b"> 
+					<!-- member information -->
+							<strong>Owner:</strong> 	  		<em>Vinny King</em> <br />
+							<strong>Year:</strong> 				<em>2009</em> <br />
+							<strong>Make:</strong> 				<em>Lamborghini</em> <br />
+							<strong>Model:</strong> 			<em>Murcielago</em> <br />
+							<strong>Power:</strong> 			<em>700</em> <br />
+							<br />
+					</div>
+				</div><!-- /grid-a -->
+			</div>
+
+			<div data-role="footer" data-position="fixed" data-id="home">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-icon="plus">Home</a></li>
+						<li><a href="#info" data-icon="plus">Info</a></li>
+						<li><a href="#custform" data-ajax="false" data-icon="plus">Join</a></li>
+					</ul>	
+				</div>
+			</div>
+		</div>						
+
+		<!-- gallery section goes here -->
+
+
+	<div data-role="page" id="gallery" data-add-back-btn="true" >
+
+			<div data-role="header" data-position="fixed">
+							<h1>Gallery</h1>
+			</div>
+
+			<div data-role="content" >
+				<!-- data -->
+				<div class="ui-grid-b">
+					<!-- gallery grid content images -->
+
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery1.jpg" /><p>Vette</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery9.jpg" /><p>Ferrari</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery3.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery4.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery5.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery6.jpg" /><p>Lambo</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery7.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery8.jpg" /><p>Vette</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery2.jpg" /><p>Ferrari</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery10.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery11.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery12.jpg" /><p>Firebird</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery13.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery14.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery15.jpg" /><p>Cobra</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery16.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery17.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery18.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery19.jpg" /><p>Nova</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery20.jpg" /><p>BMW</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery21.jpg" /><p>AC Cobra</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery22.jpg" /><p>Vette</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery23.jpg" /><p>Cuda</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery24.jpg" /><p>Nova</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery25.jpg" /><p>Vette</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery26.jpg" /><p>Camaro</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery27.jpg" /><p>Nova</p></div></div>
+					<div class="ui-block-a"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery28.jpg" /><p>Bentley</p></div></div>
+					<div class="ui-block-b"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery29.jpg" /><p>Viper</p></div></div>
+					<div class="ui-block-c"><div class="ui-bar ui-bar-c"><img src="images/gallery/gallery30.jpg" /><p>Lambo</p></div></div>
+				</div>
+			</div>
+		</div>
+
+<!-- resources section goes here -->
+
+	<div data-role="page" id="resources" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+				<h1>Resources</h1>
+
+			</div>
+
+			<div data-role="content">
+				<!-- data -->
+				
+							<h3>Tires &amp; Wheels</h3>
+							<h1><img src="images/resources/resources_hre.png" alt="hre" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>HRE Performance Wheels</strong><br />
+								2611 Commerce Way, Suite D<br />
+								Vista, California 92081<br />
+								<br /><br />
+								phone +1 760 598 1960<br />
+								fax +1 760 598 5885<br />
+								email info@hrewheels.com
+								<br /><br />
+
+								<a href="http://www.hrewheels.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+						
+
+							<h3>Exterior</h3>
+							<h1><img src="images/resources/resources_vfn.png" alt="hre" class="img"/></h1>
+							<p class="para1" style="text-shadow: none"><strong>VFN Fiberglass Inc.</strong><br />
+								330 W, Factory Rd.<br />
+								Addison, IL 60101<br />
+								Phone: (630) 543-0232<br />
+								Fax: (630) 543-9877<br /><br />
+
+								E-Mail VFN at vfnfiberglass@gmail.com <br />
+
+								<a href="http://www.vfnfiberglass.com/site.htm" data-role="button" data-theme="b">Website</a>
+							</p>
+					
+
+						
+							<h3>Forced Induction &amp; Nitrous </h3>
+							<h1><img src="images/resources/resource_tr.png" alt="Thunder Racing" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>Thunder Performance Group, Inc.</strong><br />
+								6225 Hollyfield Dr.<br />
+								Baton Rouge, LA 70809<br /><br />
+
+								Toll-Free Order Line: 877-516-7223<br />
+								Telephone Number: 225-754-7223<br />
+								Fax Number: 225-754-7220<br /><br />
+
+								Thunder Racing is located in the heart of South Louisiana, where the weather is just right for all-year racing! Our knowledgeable sales and technical staff is here to assist you with all of your questions, so feel free to give us a call at (877) 516-RACE (7223).
+								<br /><br />
+								If you're in the area and would like to check out Thunder Racing's showroom, check out our map and driving directions page!<br /><br />
+
+								<a href="http://www.thunderracing.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+					
+						
+							<h3>HP-Tuners / Tunning</h3>
+							<h1><img src="images/resources/resources_katech.png" alt="Katech Performance" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>Katech Performace</strong><br />
+							
+								24324 Sorrentino Court<br />
+								Clinton Twp., MI 48035<br />
+								Phone: 586-791-4120<br />
+								Toll Free: 866-Katech1<br />
+								Fax: 586-791-0802<br /><br />
+								
+								Emails:<br />
+								Performance Sales: store@katechengines.com<br />
+								Corporate Sales: corporate@katechengines.com<br />
+								Careers: resumes@katechengines.com<br />
+								Paypal: racing@katechengines.com<br /><br />
+
+								<a href="http://www.katechengines.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+					
+						
+							<h3>Tech Magazine</h3>
+							<h1><img src="images/resources/resources_gmht.png" alt="GM High Tech" class="img"/></h1>
+							<p class="para1" style="text-shadow: none"><strong>GM High Tech</strong><br />
+								365 West Passaic St.<br />
+								Rochelle Park, NJ 07662.<br />
+								Subscriber Services<br /><br />
+
+								For all other subscription questions and issues, you can contact us at:<br /><br />
+
+								<strong>Subscribe</strong><br />
+								(800) 477-7074<br />
+								GM High-Tech Performance<br />
+								P.O. Box 420235<br />
+								Palm Coast, FL 32142-0235<br />
+								GMHighTechPerformance@emailcustomerservice.com<br /><br />
+
+								<a href="http://www.gmhightechperformance.com/index.html" data-role="button" data-theme="b">Website</a>
+
+							</p>
+						
+							<h3>Performance Parts</h3>
+							<h1><img src="images/resources/resources_summit.png" alt="Summit Racing" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>Summit Performance Parts</strong><br />
+								2611 Commerce Way, Suite D<br />
+								Vista, California 92081<br />
+								<br /><br />
+								phone +1 760 598 1960<br />
+								fax +1 760 598 5885<br />
+								email info@hrewheels.com
+								<br /><br />
+
+								<a href="http://www.summitracing.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+						
+
+						
+							<h3>Air Flow / Exhaust</h3>
+							<h1><img src="images/resources/resources_afr.png" alt="AirFlow Research" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>Air Flow Research</strong><br />
+								28611 W. Industry Drive<br />
+								Valencia, California, USA 91355<br />
+								toll free: 877-892-8844<br />
+								tel: 661-257-8124<br />
+								fax:661-257-4462<br />
+								<br /><br />
+
+								<a href="http://www.airflowresearch.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+						
+						
+							<h3>Classic Performance</h3>
+							<h1><img src="images/resources/resources_slp.png" alt="hre" class="SLP Parts"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>SLP Muscle Car Central</strong><br />
+								1501 Industrial Way North<br />
+								Toms River, NJ 08755<br /><br />
+
+								For Additional Technical Assistance or Customer Service<br />
+								Please Call (732) 349-2109<br /><br />
+
+								Our Hours of Operation are:<br />
+								Monday - Friday 8:30AM - 5:00PM<br /><br />
+
+								<a href="http://www.slponline.com/main.asp" data-role="button" data-theme="b">Website</a>
+							</p>
+						
+							<h3>Fabrication Engineering</h3>
+							<h1><img src="images/resources/resources_dsport.png" alt="Diablo Sport" class="img"/></h1>
+							<p class="para1" style="text-shadow: none">
+								<strong>DiabloSport, Inc.</strong><br />
+								Corporate Headquarters<br />
+								1865 SW 4th Avenue Suite D-2<br />
+								Delray Beach, FL 33444<br /><br />
+
+								<a href="http://www.diablosport.com/" data-role="button" data-theme="b">Website</a>
+							</p>
+						
+					</div>
+				</div>
+			
+
+<!-- classifieds section goes here -->
+
+	<div data-role="page" id="classifieds" data-add-back-btn="true" >
+
+			<div data-role="header" data-position="fixed">
+				<h1>Classifieds</h1>
+			</div>
+
+			<div data-role="content">
+				<!-- data -->
+				<ul data-role="listview"  data-theme="c">
+					<li>
+						<a href="#mt">	
+							<h3>Mickey Thompson ET Street Series tires</h3>
+							<p>Mickey Thompson ET Street Series tires have passed D.O.T. requirements but have reduced tread depth and compounds designed for racing.</p>
+						</a>	
+					</li>
+					<li>
+						<a href="#tach">
+							<h3>Pro-Shift Lite </h3>
+							<p>The Pro-Shift Lite can trigger your shift point without a tachometer.</p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#helmet">
+							<h3>Black-Ops Carbon Fiber Helmets </h3>
+							<p>The Z9-MRR is proof of Zeronine’s ongoing mission to manufacture helmets that offer the superior impact resistance of real Carbon Fiber while keeping added weight and cost to the bare minimum.</p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#tools">
+							<h3>A-Arm Support Brace </h3>
+							<p>BMR's A-arm support bolts to the rear mount of the front A-arms</p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#rear">	
+							<h3>TA Performance 10-bolt Rear End Covers</h3>
+							<p>TA Performance's rear-end covers (girdles) are designed to improve ring and pinion gear life by pre-loading the bearing caps while also adding additional strength to your rear end housing.</p>
+
+						</a>	
+					</li>
+					
+				</ul>
+			</div>
+		</div>		
+
+
+<div data-role="page" id="mt" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+					<h1>Classifieds</h1>
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/classifieds/classifieds_mt2.jpg" />
+
+							<h3>Mickey Thompson ET Street</h3>
+							<p style="text-shadow: none">
+								<strong>Mickey Thompson ET Fronts, 26 x 4.5 x 15 - $163.99</strong> <br /><br />
+								Mickey Thompson ET Street Series tires have passed D.O.T. requirements but have reduced tread depth and compounds designed for racing. Due to the reduced tread depth these tires should be used on dry pavement only and are not suitable for normal highway use!  
+								<br /><br />
+								Mickey Thompson ET Drag Series tires are a black nylon tube-type drag slick that are a proven drag-strip winner.  They are engineered for consistent performance, compounded for longer life, and require little or no burnout.
+								<br /><br />
+								Also available are Mickey Thompson ET Street Radials! Mickey Thompson's legendary race tire technology comes to the street with the all-new ET Street Radial. Built using the latest in high tech radial construction techniques and years of drag racing experience in compound development, this D.O.T. approved street legal drag radial will get your car down the track in record time and drive you home with an excellent ride. Recommended for use on dry pavement only.
+							</p>
+				</div>
+</div>
+
+<div data-role="page" id="tach" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+					<h1>Classifieds</h1>
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/classifieds/classifieds_tach2.jpg" />
+
+							<h3>Auto Meter Phantom Series, 5" 10,000 RPM Pedestal Mount</h3>
+							<p style="text-shadow: none">
+								<strong>RPM Pedestal Mount Tachometer - $193.99</strong> <br /><br />
+								Auto Meter's shocking new Cobalt Series features a 10,000 rpm Shift-Lite Tachometer and various system gauges. This exclusive assortment of full sweep electric gauges uses the very latest in stepper motor technology and high-end sending units for unsurpassed accuracy and performance. The Cobalt Series features a black dial face, anodized bezel, white numbering, and blue accents. At night, an explosion of Cobalt blue light shines through the dial and into any interior scheme, from stock to shock. A glowing red gauge pointer provides clear contrast and visibility. Lit using LED technology, the Cobalt Series offers a lifetime of super cool lighting. 
+							</p>
+				</div>
+		
+</div>
+<div data-role="page" id="helmet" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+					<h1>Classifieds</h1>
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/classifieds/classifieds_helmet2.jpg" />
+
+							<h3>Black-Ops Carbon Fiber Helmets </h3>
+							<p style="text-shadow: none">
+								<strong>Zero9 "Black Ops" Carbon Fiber Race Helmet - $299.99</strong> <br /><br />
+								The Z9-MRR is proof of Zeronine’s® ongoing mission to manufacture helmets that offer the superior impact resistance of real Carbon Fiber while keeping added weight and cost to the bare minimum. As with all our BlackopsTM Carbon Fiber helmets, the Z9-MRR offers the best combination of form, function and value. We didn’t stop there; here’s what’s in store when you go with a Zeronine® BlackopsTM Z9-MRR helmet:<br /><br />
+
+								    - Exceeds SNELL M2005 and U.S. DOT ratings: exceeds standards for motorcycle riding<br />
+								    - Removable, vented, padded, washable DuraVent® liner to provide the best sweat-wicking capabilities<br />
+								    - Optically Correct Clear Polycarbonate Lexan visor (Tinted visors available separately)<br />
+								    - Adjustable head vents and fresh air vents for ventilation &amp; cooling<br />
+								    - Tested aero shape with duck tail vents for reduced buffering<br />
+								    - Anodized Aluminum hardware<br />
+								    - Shell made from Carbon Fiber, with Fiberglass substrate<br />
+								    - Includes soft cloth helmet bag<br />
+								   	- The best value in Carbon Fiber Motorcycle &amp; Racing helmets!
+						</p>
+				</div>
+
+</div>
+<div data-role="page" id="tools" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+					<h1>Classifieds</h1>
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/classifieds/classifieds_tools2.jpg" />
+
+							<h3>LS- Valve Spring Compressor Tool </h3>
+							<p style="text-shadow: none">
+								<strong>Comp Cams LSx Valve Spring Compressor Tool  - $99.99</strong> <br /><br />
+								The easy-to-use, custom design of the new COMP Cams® Valve Spring Compressor for LS Engines enables the effortless removal of either one or two valve springs at a time, without the hassle of first having to remove the rocker stand or any of the other installed rockers.
+								<br /><br />
+								The tool works on all GM Gen III/IV LS-type engines, both with cylinder heads installed or with the cylinder heads off. The simple design facilitates easy usage in vehicles where other tools are incapable of reaching the tight spaces. This innovative Valve Spring Compressor is a must have for all LS engine builders and enthusiasts.
+						</p>
+				</div>
+
+</div>
+<div data-role="page" id="rear" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+					<h1>Classifieds</h1>
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/classifieds/classifieds_rear2.jpg" />
+
+							<h3>Rear End Covers </h3>
+							<p style="text-shadow: none">
+								<strong>TA Performance Products Rear End Cover  - $154.99</strong> <br /><br />
+								TA Performance's rear-end covers (girdles) are designed to improve ring and pinion gear life by pre-loading the bearing caps while also adding additional strength to your rear end housing. Each girdle comes complete with all necessary mounting hardware and a cover gasket.  Ten bolt rear end covers come with the Thunder Racing logo engraved on the surface (as pictured).
+								<br /><br />
+								TA's optional stud kit is also recommended to help keep bearing caps from walking in housing.
+						</p>
+				</div>
+					</div>					
+
+<!-- news section goes here -->
+
+
+	<div data-role="page" id="news" data-add-back-btn="true" data-theme="c" >
+
+			<div data-role="header" data-position="fixed">
+				<h1>News</h1>
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->
+				<ul data-role="listview" data-theme="c">
+					<li>
+						<a href="#news_katech">	
+							<h3>2002 Camaro SS </h3>
+							<p>Marco Rodriguez’s ’02 SSS proves that a well thought out combination can be faster than the sum of its parts </p>
+							<p><em>Wednesday, July 11, 2012</em></p>
+						</a>	
+					</li>
+					<li>
+						<a href="#news_camaros">	
+							<h3>2002 & 1998 Camaros</h3>
+							<p>R.P.M. Motorsports builds two Camaros that are as similar as they are different-one a 9-second SS nitrous car, the other a single-turbo Z28... more</p>
+							<p><em>Tuesday, July 10, 2012</em></p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#news_caddy">	
+							<h3>2009 Cadillac CTS-V</h3>
+							<p>Manny Espino’s 9-second LSA-powered CTS-V turns up the heat in Miami</p>
+							<p><em>Sunday, July 8, 2012</em></p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#news_gmc">	
+							<h3>1000-Plus-HP GM Pickup Trucks - Hayhauler And Lil' Sis 	1000-Plus-HP GM Pickup Trucks </h3>
+							<p>Flaco fanatics may now rejoice, as we finally show off Hayhauler and Lil' Sis in all their glory</p>
+							<p><em>Friday, July 6, 2012</em></p>
+
+						</a>	
+					</li>
+					<li>
+						<a href="#news_gn">	
+							<h3>1987 Buick Regal</h3>
+							<p>Like many Turbo Buick owners, Jason Rusch had plenty of experience with Detroit muscle before he ever laid a hand on his '87 Turbo T... more</p>
+							<p><em>Thursday, July 5, 2012</em></p>
+
+						</a>	
+					</li>
+				</ul>
+			</div>
+		</div>		
+
+<!-- news one window drill down starts here for the news section -->
+
+<div data-role="page" id="news_katech" data-add-back-btn="true" data-theme="c" >
+
+			<div data-role="header" data-position="fixed">
+							<h1>News</h1>
+							<!-- <h1><img src="images/branding_header.png" class="img" alt="Gear Heads"/></h1> -->
+
+			</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/news/news_pwraith.jpg" />
+
+							<h3>2002 Camaro SS - Project Wraith</h3>
+							<p style="text-shadow: none">If you read the wrong magazines, peruse the wrong forums, or spend too much time looking through parts catalogs, you may come away with the general consensus that every single piece of your car, whether modified or stock, is a horrible piece of junk that's seconds away from exploding. <br /><br />We've all been there, researching the next high-tech part to buy when someone with a closet full of go-fast goodies, a drained bank account, and a car with enough parts to run <em>8's</em> that actually runs <em>12's</em> chimes in with, <br /><br />
+
+								<span class="newswin"><em>"That will never work! Those are junk and you can't ever go fast with them. My boy said..."</em></span><br /><br />
+
+							This happens, all day, every day to every type of enthusiast. Sometimes, this terrible advice leads to spending thousands upon thousands of dollars for a new engine only to find out it goes just a little faster than the "stock junk" and has oiling issues. <br /><br />For others, it can lead to part paralysis, a condition in which too many choices and too many opinions leads to never making a decision and instead deciding to just remain unhappy with your car, since everyone says it must be terrible.<br /><br />
+							<img src="images/news/news_pwraith2.jpg" />
+							<img src="images/news/news_pwraith3.jpg" />
+							</p>
+				</div>
+		</div>				
+
+<div data-role="page" id="news_camaros"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+							<h1>News</h1>
+							<!-- <h1><img src="images/branding_header.png" class="img" alt="Gear Heads"/></h1> -->
+
+							</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/news/news_camaros2.jpg" />
+
+							<h3>2002 &amp; 1998 Chevy Camaros</h3>
+							<p style="text-shadow: none">Above these words are two completely different cars, built for completely different purposes for two completely different owners. On paper, they don't sound anything alike. One features a 402 cubic-inch LSX block with a single turbocharger and the other has a stock cubic-inch LS1 stuffed under the hood that huffs nitrous from a single fogger kit. One car rides on drag radials, the other on a slick. Silver SS, Silver Z28. It's amazing then to consider that these two cars are actually extremely similar in personality and form, even though they differ so drastically in function. So similar, in fact, that even after spending hours around them, it's hard to tell each apart, even knowing the differences.<br /><br />
+
+							<span class="newswin"><em>"How is it possible that two different owners, one from Wichita, TX and one from Durham, NC could go to one shop, ask for two completely different things and leave with cars that are both entirely unique and uniquely similar?"</em></span><br /><br />
+
+							The answer, actually, is the man behind the madness, Ryan Robinson, who is the owner of <em>R.P.M. Motorsports</em> and the key component of each and every car that comes out of his shop. <br /><br />
+							<img src="images/news/news_camaros3.jpg" />
+							<img src="images/news/news_camaros4.jpg" />
+							</p>
+				</div>
+</div>
+<div data-role="page" id="news_caddy"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+							<h1>News</h1>
+							<!-- <h1><img src="images/branding_header.png" class="img" alt="Gear Heads"/></h1> -->
+
+							</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/news/news_caddy2.jpg" />
+
+							<h3>2009 Cadillac CTS-V</h3>
+							<p style="text-shadow: none">There's no easy way to say this...I hate Manny Espino. It's not anything against him personally, I am sure he is a great guy. And, it's not because he has done anything to offend me or some terrible act against society. Nope, I hate Manny for one, all-black, four-door supercharged reason. Manny not only drives one of my all-time dream cars but it runs 9.85, makes 865 rwhp, and he only bought it because he "was in need of a four-door car" to haul his wife and two kids around. I mean, "if you're going to have a four-door, it might as well be fast," right? Yeah, we all agree Manny, but did you have to go out and become the first 9-second LSA-powered CTS-V in the country to boot? Heck, the guy already owns an '86 Buick T-Type that runs 8.10 at 172, does he just sit around and build cars I've lusted after for years and then smash records with them? What a jerk!
+
+							<br /><br />
+
+							<span class="newswin"><em>"I noticed nobody had gotten a [new] CTS-V in the 9's and that's when I started to think it would be nice to be the first to do it?" That question mark isn't a misprint, that's really what Manny wrote, as if to ensure that I spent the rest of my day crying under my desk, contemplating giving up cars all together and moving to Tibet."
+							</em></span><br /><br />
+
+							Unfortunately, Manny had a slight miscalculation on his way into the 9's, pursuing a ZR1 supercharger system that didn't work out as planned. "The only bolt-on option at the time was the ZR1 blower option. It was a ZR1 blower modified to fit the CTS-V snout onto the ZR1 blower using the CTS-V lid and intercooler. That turned out to be a big waste of time and money.
+							 <br /><br />
+							<img src="images/news/news_caddy3.jpg" />
+							<img src="images/news/news_caddy4.jpg" />
+							</p>
+				</div></div>
+
+				<div data-role="page" id="news_gmc"  data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+							<h1>News</h1>
+							<!-- <h1><img src="images/branding_header.png" class="img" alt="Gear Heads"/></h1> -->
+
+							</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/news/news_gmc2.jpg" />
+
+							<h3>1000-Plus-HP GM Pickup Trucks</h3>
+							<p style="text-shadow: none">The Hayhauler and Lil' Sis...you're either completely onboard and excited to read about Flaco's twin masterpieces or you're wondering if you accidentally picked up the wrong magazine. For the Flaco fanatics, you can just jump ahead to the next paragraph, since you already know that the Hayhauler has ran as fast as 8.40 at 162 mph in the quarter-mile and puts out over 1,700 turbocharger horsepower! And if you know about the Hayhauler, you can definitely skip ahead since we imagine you've spent a solid 45 minutes of your day watching Texas Mile videos of Lil' Sis going 199 mph in the Standing Mile. For the rest of you, you're probably no longer wondering why these trucks are in GMHTP but rather, why you don't know more about them.
+
+							<br /><br />
+
+							<span class="newswin"><em>"And if you know about the Hayhauler, you can definitely skip ahead since we imagine you've spent a solid 45 minutes of your day watching Texas Mile videos of Lil' Sis going 199 mph in the Standing Mile."
+							</em></span><br /><br />
+
+							Let's start with the Hayhauler, an LSX Shootout veteran and one of the coolest trucks ever built for LSX racing. Under the hood of this '04 Silverado, Flaco runs a 414 cubic-inch iron block LS that was built for him by Eric Koenig of HK Enterprises (HKE). For just any engine builder, this would have been a disaster in the making, but for Eric, an LS master, it's just another fun challenge to make the kind of power Flaco wants in a truck that weighs as much as it does. As you can imagine, the HKE 414 is stuffed with all of the good stuff from Callies and Wiseco and a large .700-inch lift hydraulic roller camshaft paired with Trick Flow 235cc heads to help funnel a ton of air into and out of the combustion chambers.
+
+							 <br /><br />
+							<img src="images/news/news_gmc3.jpg" />
+							<img src="images/news/news_gmc4.jpg" />
+							</p>
+				</div></div>
+
+				<div data-role="page" id="news_gn" data-theme="c" data-add-back-btn="true">
+
+			<div data-role="header" data-position="fixed">
+							<h1>News</h1>
+							<!-- <h1><img src="images/branding_header.png" class="img" alt="Gear Heads"/></h1> -->
+
+							</div>
+<!-- content goes here --> 
+
+			<div data-role="content">
+				<!-- data -->	
+							<img src="images/news/news_gn2.jpg" />
+
+							<h3>1987 Buick GNX - To Hell And Back</h3>
+							<p style="text-shadow: none">
+							The site or even the thought of a GNX as modified as Rob Schneider's would drive many (seemingly) rational people mad. But before you pass judgment, please take a second to hear the whole story. As a lover and former owner of several Grand Nationals, as well as several other fast cars, purchasing a GNX well over 10 years ago when the opportunity presented itself was a no-brainer. It was the king of Grand Nationals, iconic and legendary in status. What no one could have predicted, though, was that a few simple modifications would turn into a decade-long nightmare, or that it would actually have a happy ending.
+							<br /><br />
+
+							<span class="newswin"><em>"As a lover and former owner of several Grand Nationals, as well as several other fast cars, purchasing a GNX well over 10 years ago when the opportunity presented itself was a no-brainer."
+							</em></span><br /><br />
+
+							Instead of a simple valve seal replacement, shop number one left Schneider's beloved GNX stripped of most of its essential components and left to rot before he rescued it. Though a bit gun-shy, he then took the car back home to Las Vegas, Nevada where a local shop was to start the rebuild process, but soon got in over its head with more than just this build. Several years later Schneider showed up with a flatbed and title in hand as the police helped him remove it after the shop had gone under. When the crew at Insane Speed got their hands on Schneider's GNX #442, they were pretty much given carte blanche to make a streetcar to live up to the shop's name and reputation. With a history of building twin-turbo Gallardos, Supras, and just about anything else you can hang a big hairdryer on--Insane Speed knew exactly what to do.
+							 <br /><br />
+							<img src="images/news/news_gn3.jpg" />
+							<img src="images/news/news_gn4.jpg" />
+							</p>
+				</div></div>
+	<!-- JavaScript under here -->
+
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

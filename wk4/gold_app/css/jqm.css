@@ -1,0 +1,281 @@
+/* 
+	Marco Rodriguez
+	Project 4
+	07-26-12
+	MIU 1207
+*/	
+
+/* jqm overrride css styles */
+/* branding header logo */
+#gallery .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#resources .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#classifieds .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#members .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#ae .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#fj .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#ko .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#pt .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#uz .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news_gn .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news_gmc .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news_caddy .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news_camaros .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#news_katech .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#info .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#custform .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#mt .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#tach .brand {
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#helmet .brand{
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#tools .brand{
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#rear .brand{
+	text-align:left;
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+/* ends */
+
+
+#home .ui-mobile-viewport .ui-overlay-c {
+	background-color:black !important;
+}
+input.placeholder{
+	color:red;
+}
+#custerrorlink{display:none;}
+
+label.error{
+	display: block;
+	margin:10px 0;
+	color: #cc0000;
+}
+#gallery .ui-grid-b div{}
+
+#gallery .ui-grid-b .ui-bar {
+	margin: 5px;
+	padding: 5px;
+}
+/* member styles*/
+#ae .ui-grid-a .ui-bar {
+	margin-right: 10px;
+	padding: 8px;
+	background-color: black;
+}
+#ae .ui-grid-a .ui-bar .ui-block-b {
+	background-color: #000;
+}
+#fj .ui-grid-a .ui-bar {
+	margin-right: 10px;
+	padding: 8px;
+}
+#ko .ui-grid-a .ui-bar {
+	margin-right: 10px;
+	padding: 8px;
+}
+#pt .ui-grid-a .ui-bar {
+	margin-right: 10px;
+	padding: 8px;
+}
+#uz .ui-grid-a .ui-bar {
+	margin-right: 10px;
+	padding: 8px;
+}
+
+/*  ends */
+
+#news img {
+	padding: 10px;
+}
+#news_katech .newswin {
+	color: #99ccff;
+}
+#news_camaros .newswin {
+	color: #99ccff;
+}
+#news_caddy .newswin {
+	color: #99ccff;
+}
+#news_gmc .newswin {
+	color: #99ccff;
+}
+#news_gn .newswin {
+	color: #99ccff;
+}
+#news .newswin {
+	color: #336699;
+
+}
+
+/* overrrides the standard jqm icons with my own icons */
+.ui-icon-gallery {
+	background-image: url("../images/icons/gallery.png");
+	background-color: none;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px !important; /* adjust vertical position (top value is set to 50%) */
+}
+.ui-icon-members {
+	background-image: url("../images/icons/members.png");
+	background-color: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px !important; /* adjust vertical position (top value is set to 50%) */
+}
+.ui-icon-resources {
+	background-image: url("../images/icons/resources.png");
+	background-color: none;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px !important; /* adjust vertical position (top value is set to 50%) */
+}
+.ui-icon-classifieds {
+	background-image: url("../images/icons/classifieds.png");
+	background-color: none;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px !important; /* adjust vertical position (top value is set to 50%) */
+}
+.ui-icon-news {
+	background-image: url("../images/icons/news.png");
+	background-color: none;
+    border: none;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px !important; /* adjust vertical position (top value is set to 50%) */
+}

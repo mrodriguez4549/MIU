@@ -1,0 +1,22 @@
+/* 
+	Marco Rodriguez
+	Project 4
+	07-26-12
+	MIU 1207
+*/	
+/* write your CSS in here */
+
+
+#gallery .ui-grid-b div{}
+
+#gallery .ui-grid-b .ui-bar {
+	margin: 5px;
+	padding: 5px;
+}
+#news img {
+	padding: 10px;
+}
+#news_katech .newswin {
+	color: #99ccff;
+}
+
