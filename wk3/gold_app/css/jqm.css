@@ -1,0 +1,31 @@
+/* 
+	Marco Rodriguez
+	Project 3
+	07-19-12
+	MIU 1207
+*/	
+
+/* jqm overrride css styles */
+input.placeholder{
+	color:red;
+}
+#custerrorlink{display:none;}
+
+label.error{
+	display: block;
+	margin:10px 0;
+	color: #cc0000;
+}
+#gallery .ui-grid-b div{}
+
+#gallery .ui-grid-b .ui-bar {
+	margin: 5px;
+	padding: 5px;
+}
+#news img {
+	padding: 10px;
+}
+#news_katech .newswin {
+	color: #99ccff;
+}
+
