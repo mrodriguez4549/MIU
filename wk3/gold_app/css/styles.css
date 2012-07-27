@@ -1,0 +1,120 @@
+/* 
+	Marco Rodriguez
+	Project 3
+	07-19-12
+	MIU 1207
+*/	
+
+/* css style sheet */
+/* index style css */
+body {
+	font-family: Arial, "Helvetica", sans-serif;
+	font-size: 14px;
+	color: #fff;
+
+}
+/* h1 tag styling */
+h1 {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+h2 {
+	color: #999;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+}
+.mybuttons {
+	display: block;
+     width: 100%;
+     margin: auto;
+ }
+.mycta {
+	display: block;
+     width: 280px;
+     margin: 0px auto;
+ }
+/* style for my paragraph tag */
+p {
+	line-height: 140%;
+}
+p.para1 {
+	text-align: center; 
+	color: #cccc99;
+}
+p.para2 {
+	color: #fff;
+}
+#news .imgnews img{
+	padding: 5px;
+}
+#footer {
+	clear: left;
+	color: #999;
+	text-align: center;
+}
+/* form styles start here */
+
+
+/* fieldset styles */
+fieldset {
+		width: auto;
+		font-family: helvetica;
+		font-size: 12px;
+		color:  #c7310e;
+		border-color: #F0F0F0;
+		line-height: 140%;
+		
+	}
+/* legend tag styles */
+legend {
+	font-size: 16px;
+	font-style: bold;
+	background-color: #F0F0F0;
+	padding: 5px;
+}
+/* listed items styles */
+li {
+	line-height: 140%;
+}
+/* textarea styles */ 
+textarea {
+	background-color: #F0F0F0;
+}
+
+/* submit button class styles */
+.button {
+    border: none;
+   	background-color: #ccffff;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+.buttn {
+	border: none;
+   	background-color: #ccffff;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+}
+/* clearn data & display data buttons styles */
+.bttn {
+    border: none;
+	padding: 5px;
+	color: #000;
+	font-size: 12px;
+}
+/* input text fields class styles */
+.input {
+	border-radius: 3px;
+	border-color: #999;
+}
+
+/* input text fields class hover */
+.input:hover {
+    border-radius: 5px;
+    background: #FFF;
+}
